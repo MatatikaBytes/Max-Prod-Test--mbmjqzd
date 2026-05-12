@@ -10,6 +10,9 @@ plugins:
   - name: tap-spreadsheets-outlook
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-spreadsheets-anywhere@v0.5.0
+  - name: tap-rakutenadvertising
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-rakutenadvertising.git@v0.1.7
   loaders:
   - name: target-postgres
     variant: matatika
